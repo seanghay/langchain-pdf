@@ -29,7 +29,7 @@ const model = new OpenAI({ modelName: "gpt-3.5-turbo" });
 const chain = ChatVectorDBQAChain.fromLLM(model, vectorStore);
 const response = await chain.call({
   question: prompt,
-  max_tokens: 500, // todo: pick up a sensible value
+  max_tokens: 1024, // todo: pick up a sensible value
   chat_history: [],
 });
 
