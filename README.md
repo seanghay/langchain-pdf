@@ -6,7 +6,7 @@ It reads PDF files and let you ask what those files are about.
 
 Make sure you've created a pinecone index called `docs` with
 
-<img width="726" alt="image" src="https://user-images.githubusercontent.com/15277233/227839582-aa87a966-4c04-43ec-87cf-e6464928b357.png">
+<img alt="image" src="https://user-images.githubusercontent.com/15277233/227839582-aa87a966-4c04-43ec-87cf-e6464928b357.png">
 
 ```sh
 OPENAI_API_KEY=sk-xxxx
